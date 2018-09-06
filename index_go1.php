@@ -1,4 +1,5 @@
 <?php
+//整站管理登陆后台安全验证
 require_once (dirname(__FILE__) . "/include/common.inc.php");// lyy开启了session,和免脚本验证
 if($_GET["login_yz"]=="eiApmggCNvWqupAKunwLc03gIQwY"){//index_go.php?login_yz=eiApmggCNvWqupAKunwLc03gIQwY
 	$_SESSION["login_yz"]=1;
